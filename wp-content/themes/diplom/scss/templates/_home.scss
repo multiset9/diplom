@@ -1,0 +1,230 @@
+//контент секция компании
+.out_products{
+  padding: 90px 0;
+  & .title_block{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 39px;
+    font-weight: 400;
+    color: $black;
+  }
+  & .content{
+    text-align: center;
+    padding: 0 200px 0 200px;
+    font-size: 19px;
+    color: $text-color;
+    @include breakpoint(medium down) {
+      padding: 0 30px 0 30px;
+    }
+  }
+}
+
+//Section About US
+.bg_about_us{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content-about_us{
+  padding: 80px 0 100px;
+  & .title_about_us{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: $white;
+  }
+  & .qualities{
+    margin: 20px auto 0;
+    text-align: center;
+    color: white;
+    & h3 {
+      margin: 15px 0;
+      color: white;
+      font-weight: bold;
+      font-size: 30px;
+    }
+    & .content_qual{
+      color: #b6b6cd;
+    }
+  }
+}
+//Secrion Service
+
+.image{
+  position: relative;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  &::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    z-index: 0;
+  }
+}
+.filter {
+  position: relative;
+  z-index: 1;
+}
+.section-content{
+  padding: 60px 0 60px;
+}
+.title-service{
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+.service-content{
+  color: white;
+  & p{
+    font-size: 20px;
+    margin-right: 40px;
+  }
+  & .service-text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @include breakpoint(medium down)
+    {
+      padding-bottom: 20px;
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+  & .form-content{
+    background-color: white;
+    padding: 20px 35px;
+  }
+  & .gform_title{
+    text-align: center;
+    color: gray;
+    font-weight: normal;
+    //margin: 10px 10px;
+  }
+}
+
+// product slider
+.product-slider {
+  .fa{
+    display: none;
+  }
+  div#wps-slider-section .wps-product-section .slick-prev {
+    left: 14px;
+    top: 40%;
+  }
+  div#wps-slider-section .wps-product-section .slick-next {
+    right: 0;
+    top: 40%;
+  }
+  .wps-product-section{
+    & .slick-dots{
+      display: none !important;
+    }
+    img {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+  }
+}
+
+//recent posts
+.recent-content{
+  & .title_last_news{
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+  margin-top: 70px;
+  margin-bottom: 70px;
+  & .title-home{
+    padding-top: 20px;
+  }
+  & .recent-post{
+    @include breakpoint(medium down) {
+      text-align: center;
+      padding: 20px 20px;
+    }
+  }
+}
+
+//  testimonials clients
+.block-testimonials{
+  padding: 60px 0;
+  .content-testimonials{
+    color: white;
+    font-size: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+.content-testimonials{
+  text-align: center;
+}
+
+.slider-comments{
+  max-width: 900px;
+  margin: 0 auto;
+  .review {
+    margin: 0 30px;
+  }
+  & img{
+    display: none !important;
+  }
+  & .woocommerce-review__awaiting-approval{
+    display: none;
+  }
+  padding: 70px 0 70px;
+  & .comment-text{
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    padding: 60px 60px;
+    position: relative;
+    &::before{
+      content: url('../images/32371.png');
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      z-index: 0;
+    }
+    &::after{
+      content: url('../images/32372.png');
+      position: absolute;
+      bottom: 40px;
+      right: 40px;
+      z-index: 0;
+    }
+    @include breakpoint(small down) {
+      padding: 50px 20px;
+      &::after{
+        content: url('../images/32372.png');
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        z-index: 0;
+      }
+      &::before{
+        content: url('../images/32371.png');
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 0;
+      }
+    }
+  }
+  & .star-rating span{
+      font-weight: bold;
+      font-size: 25px;
+    }
+  }
+
+
+

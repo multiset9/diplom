@@ -1,0 +1,84 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: February 28, 2020 4:49 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.28
+WORDPRESS:	5.3.2
+PHP INFO:	7.1.32 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (1536M default) 
+MEMORY STACK: 30MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20191011_wla_pack_79b7b82726a792382242_20200228164921_database.sql
+SQL FILE SIZE: 1.36MB (1423135)
+SQL FILE TIME: 2020-02-28 16:49:57
+SQL RUNTIME: 15.63 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  C:/Users/USER/OSPanel/domains/diplom.work
+ARCHIVE FILE: 20191011_wla_pack_79b7b82726a792382242_20200228164921_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	137.54MB
+STATS:	Dirs 959 | Files 7,132
+SQL ADDED: 20191011_wla_pack_79b7b82726a792382242_20200228164921_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 8091
+    [filename] => C:\Users\USER\OSPanel\domains\diplom.work\wp-snapshots\tmp\20191011_wla_pack_79b7b82726a792382242_20200228164921_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 8090
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 50.56MB
+ARCHIVE RUNTIME: 35.41 sec.
+MEMORY STACK: 32MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip C:/Users/USER/OSPanel/domains/diplom.work/wp-snapshots/tmp/20191011_wla_pack_79b7b82726a792382242_20200228164921_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 1.36MB
+INSTALLER FILE: 60.53KB
+ARCHIVE FILE: 51.91MB 
+EXPECTED FILE/DIRECTORY COUNT: 8,091
+ACTUAL FILE/DIRECTORY COUNT: 8,090
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[2]
+TOTAL PROCESS RUNTIME: 53.87 sec.
+PEAK PHP MEMORY USED: 34MB
+DONE PROCESSING => 20191011_wla_pack February 28, 2020 4:50 pm
+

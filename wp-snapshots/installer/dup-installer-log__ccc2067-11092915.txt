@@ -1,0 +1,407 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 01:02:07
+* VERSION: 1.3.22
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 5.6.40-1+ubuntu14.04.1+deb.sury.org+1 |7.1.32
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2019-10-11 09:29:15
+WP VERSION__________: 5.2.3
+DUP VERSION_________: 1.3.22
+DB__________________: 5.6.33
+DB TABLES___________: 17
+DB ROWS_____________: 200
+DB FILE SIZE________: 928KB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.1.32 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "C:/Users/USER/OSPanel/domains/diplom.work"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://diplom.work/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20191011_wla_pack_ccc20678e243d12d6134_20191011092915_archive.zip"
+SIZE________________: 21.93MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' backed-up to .htaccess-200128130207-5e3030cfdba5a-duplicator.bak
+- PASS: Existing Apache '.htaccess' was removed
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4050
+    [filename] => C:\Users\USER\OSPanel\domains\diplom.work\20191011_wla_pack_ccc20678e243d12d6134_20191011092915_archive.zip
+    [comment] => 
+)
+File timestamp set to Current: 2020-01-28 13:02:32
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 01:02:32 - RUNTIME: 24.1735 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 01:03:10
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.13 -- Build Server: 5.6.33
+FILE SIZE:	dup-database__ccc2067-11092915.sql (182.43KB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/Users/USER/OSPanel/domains/diplom.work/dup-installer/dup-installer-data__ccc2067-11092915.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	12
+RENAMED TABLES:	0
+QUERIES RAN:	157
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_lockdowns: (0)
+wp_login_fails: (0)
+wp_options: (128)
+wp_postmeta: (2)
+wp_posts: (6)
+wp_term_relationships: (1)
+wp_term_taxonomy: (1)
+wp_termmeta: (0)
+wp_terms: (1)
+wp_usermeta: (33)
+wp_users: (2)
+wp_yoast_seo_links: (0)
+wp_yoast_seo_meta: (0)
+Removed '29' cache/transient rows
+
+INSERT DATA RUNTIME: 0.4034 sec.
+STEP-2 COMPLETE @ 01:03:10 - RUNTIME: 0.4174 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 01:03:48
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Diplom"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/var/www/html/wla-interns/denysenko/health-spa/"
+path_new______________: "C:/Users/USER/OSPanel/domains/diplom.work/"
+siteurl_______________: "http://diplom.work"
+url_old_______________: "http://do.ready-for-feedback.com/wla-interns/denysenko/health-spa"
+url_new_______________: "http://diplom.work"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "diplom"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wla-interns/denysenko/health-spa/" => "C:/Users/USER/OSPanel/domains/diplom.work/"
+	SEARCH  2:"\/var\/www\/html\/wla-interns\/denysenko\/health-spa\/" => "C:\/Users\/USER\/OSPanel\/domains\/diplom.work\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwla-interns%2Fdenysenko%2Fhealth-spa%2F" => "C%3A%2FUsers%2FUSER%2FOSPanel%2Fdomains%2Fdiplom.work%2F"
+	SEARCH  4:"\var\www\html\wla-interns\denysenko\health-spa" ==> "C:/Users/USER/OSPanel/domains/diplom.work"
+	SEARCH  5:"\\var\\www\\html\\wla-interns\\denysenko\\health-spa" => "C:\/Users\/USER\/OSPanel\/domains\/diplom.work"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwla-interns%5Cdenysenko%5Chealth-spa" => "C%3A%2FUsers%2FUSER%2FOSPanel%2Fdomains%2Fdiplom.work"
+	SEARCH  7:"//do.ready-for-feedback.com/wla-interns/denysenko/health-spa" => "//diplom.work"
+	SEARCH  8:"\/\/do.ready-for-feedback.com\/wla-interns\/denysenko\/health-spa" => "\/\/diplom.work"
+	SEARCH  9:"%2F%2Fdo.ready-for-feedback.com%2Fwla-interns%2Fdenysenko%2Fhealth-spa" => "%2F%2Fdiplom.work"
+	SEARCH 10:"https://diplom.work" =============================> "http://diplom.work"
+	SEARCH 11:"https:\/\/diplom.work" ===========================> "http:\/\/diplom.work"
+	SEARCH 12:"https%3A%2F%2Fdiplom.work" =======================> "http%3A%2F%2Fdiplom.work"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_lockdowns"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_login_fails"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   128][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wla-interns/denysenko/health-spa/" => "C:/Users/USER/OSPanel/domains/diplom.work/"
+	SEARCH  2:"\/var\/www\/html\/wla-interns\/denysenko\/health-spa\/" => "C:\/Users\/USER\/OSPanel\/domains\/diplom.work\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwla-interns%2Fdenysenko%2Fhealth-spa%2F" => "C%3A%2FUsers%2FUSER%2FOSPanel%2Fdomains%2Fdiplom.work%2F"
+	SEARCH  4:"\var\www\html\wla-interns\denysenko\health-spa" ==> "C:/Users/USER/OSPanel/domains/diplom.work"
+	SEARCH  5:"\\var\\www\\html\\wla-interns\\denysenko\\health-spa" => "C:\/Users\/USER\/OSPanel\/domains\/diplom.work"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwla-interns%5Cdenysenko%5Chealth-spa" => "C%3A%2FUsers%2FUSER%2FOSPanel%2Fdomains%2Fdiplom.work"
+	SEARCH  7:"//do.ready-for-feedback.com/wla-interns/denysenko/health-spa" => "//diplom.work"
+	SEARCH  8:"\/\/do.ready-for-feedback.com\/wla-interns\/denysenko\/health-spa" => "\/\/diplom.work"
+	SEARCH  9:"%2F%2Fdo.ready-for-feedback.com%2Fwla-interns%2Fdenysenko%2Fhealth-spa" => "%2F%2Fdiplom.work"
+	SEARCH 10:"https://diplom.work" =============================> "http://diplom.work"
+	SEARCH 11:"https:\/\/diplom.work" ===========================> "http:\/\/diplom.work"
+	SEARCH 12:"https%3A%2F%2Fdiplom.work" =======================> "http%3A%2F%2Fdiplom.work"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wla-interns/denysenko/health-spa/" => "C:/Users/USER/OSPanel/domains/diplom.work/"
+	SEARCH  2:"\/var\/www\/html\/wla-interns\/denysenko\/health-spa\/" => "C:\/Users\/USER\/OSPanel\/domains\/diplom.work\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwla-interns%2Fdenysenko%2Fhealth-spa%2F" => "C%3A%2FUsers%2FUSER%2FOSPanel%2Fdomains%2Fdiplom.work%2F"
+	SEARCH  4:"\var\www\html\wla-interns\denysenko\health-spa" ==> "C:/Users/USER/OSPanel/domains/diplom.work"
+	SEARCH  5:"\\var\\www\\html\\wla-interns\\denysenko\\health-spa" => "C:\/Users\/USER\/OSPanel\/domains\/diplom.work"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwla-interns%5Cdenysenko%5Chealth-spa" => "C%3A%2FUsers%2FUSER%2FOSPanel%2Fdomains%2Fdiplom.work"
+	SEARCH  7:"//do.ready-for-feedback.com/wla-interns/denysenko/health-spa" => "//diplom.work"
+	SEARCH  8:"\/\/do.ready-for-feedback.com\/wla-interns\/denysenko\/health-spa" => "\/\/diplom.work"
+	SEARCH  9:"%2F%2Fdo.ready-for-feedback.com%2Fwla-interns%2Fdenysenko%2Fhealth-spa" => "%2F%2Fdiplom.work"
+	SEARCH 10:"https://diplom.work" =============================> "http://diplom.work"
+	SEARCH 11:"https:\/\/diplom.work" ===========================> "http:\/\/diplom.work"
+	SEARCH 12:"https%3A%2F%2Fdiplom.work" =======================> "http%3A%2F%2Fdiplom.work"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wla-interns/denysenko/health-spa/" => "C:/Users/USER/OSPanel/domains/diplom.work/"
+	SEARCH  2:"\/var\/www\/html\/wla-interns\/denysenko\/health-spa\/" => "C:\/Users\/USER\/OSPanel\/domains\/diplom.work\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwla-interns%2Fdenysenko%2Fhealth-spa%2F" => "C%3A%2FUsers%2FUSER%2FOSPanel%2Fdomains%2Fdiplom.work%2F"
+	SEARCH  4:"\var\www\html\wla-interns\denysenko\health-spa" ==> "C:/Users/USER/OSPanel/domains/diplom.work"
+	SEARCH  5:"\\var\\www\\html\\wla-interns\\denysenko\\health-spa" => "C:\/Users\/USER\/OSPanel\/domains\/diplom.work"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwla-interns%5Cdenysenko%5Chealth-spa" => "C%3A%2FUsers%2FUSER%2FOSPanel%2Fdomains%2Fdiplom.work"
+	SEARCH  7:"//do.ready-for-feedback.com/wla-interns/denysenko/health-spa" => "//diplom.work"
+	SEARCH  8:"\/\/do.ready-for-feedback.com\/wla-interns\/denysenko\/health-spa" => "\/\/diplom.work"
+	SEARCH  9:"%2F%2Fdo.ready-for-feedback.com%2Fwla-interns%2Fdenysenko%2Fhealth-spa" => "%2F%2Fdiplom.work"
+	SEARCH 10:"https://diplom.work" =============================> "http://diplom.work"
+	SEARCH 11:"https:\/\/diplom.work" ===========================> "http:\/\/diplom.work"
+	SEARCH 12:"https%3A%2F%2Fdiplom.work" =======================> "http%3A%2F%2Fdiplom.work"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wla-interns/denysenko/health-spa/" => "C:/Users/USER/OSPanel/domains/diplom.work/"
+	SEARCH  2:"\/var\/www\/html\/wla-interns\/denysenko\/health-spa\/" => "C:\/Users\/USER\/OSPanel\/domains\/diplom.work\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwla-interns%2Fdenysenko%2Fhealth-spa%2F" => "C%3A%2FUsers%2FUSER%2FOSPanel%2Fdomains%2Fdiplom.work%2F"
+	SEARCH  4:"\var\www\html\wla-interns\denysenko\health-spa" ==> "C:/Users/USER/OSPanel/domains/diplom.work"
+	SEARCH  5:"\\var\\www\\html\\wla-interns\\denysenko\\health-spa" => "C:\/Users\/USER\/OSPanel\/domains\/diplom.work"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwla-interns%5Cdenysenko%5Chealth-spa" => "C%3A%2FUsers%2FUSER%2FOSPanel%2Fdomains%2Fdiplom.work"
+	SEARCH  7:"//do.ready-for-feedback.com/wla-interns/denysenko/health-spa" => "//diplom.work"
+	SEARCH  8:"\/\/do.ready-for-feedback.com\/wla-interns\/denysenko\/health-spa" => "\/\/diplom.work"
+	SEARCH  9:"%2F%2Fdo.ready-for-feedback.com%2Fwla-interns%2Fdenysenko%2Fhealth-spa" => "%2F%2Fdiplom.work"
+	SEARCH 10:"https://diplom.work" =============================> "http://diplom.work"
+	SEARCH 11:"https:\/\/diplom.work" ===========================> "http:\/\/diplom.work"
+	SEARCH 12:"https%3A%2F%2Fdiplom.work" =======================> "http%3A%2F%2Fdiplom.work"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wla-interns/denysenko/health-spa/" => "C:/Users/USER/OSPanel/domains/diplom.work/"
+	SEARCH  2:"\/var\/www\/html\/wla-interns\/denysenko\/health-spa\/" => "C:\/Users\/USER\/OSPanel\/domains\/diplom.work\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwla-interns%2Fdenysenko%2Fhealth-spa%2F" => "C%3A%2FUsers%2FUSER%2FOSPanel%2Fdomains%2Fdiplom.work%2F"
+	SEARCH  4:"\var\www\html\wla-interns\denysenko\health-spa" ==> "C:/Users/USER/OSPanel/domains/diplom.work"
+	SEARCH  5:"\\var\\www\\html\\wla-interns\\denysenko\\health-spa" => "C:\/Users\/USER\/OSPanel\/domains\/diplom.work"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwla-interns%5Cdenysenko%5Chealth-spa" => "C%3A%2FUsers%2FUSER%2FOSPanel%2Fdomains%2Fdiplom.work"
+	SEARCH  7:"//do.ready-for-feedback.com/wla-interns/denysenko/health-spa" => "//diplom.work"
+	SEARCH  8:"\/\/do.ready-for-feedback.com\/wla-interns\/denysenko\/health-spa" => "\/\/diplom.work"
+	SEARCH  9:"%2F%2Fdo.ready-for-feedback.com%2Fwla-interns%2Fdenysenko%2Fhealth-spa" => "%2F%2Fdiplom.work"
+	SEARCH 10:"https://diplom.work" =============================> "http://diplom.work"
+	SEARCH 11:"https:\/\/diplom.work" ===========================> "http:\/\/diplom.work"
+	SEARCH 12:"https%3A%2F%2Fdiplom.work" =======================> "http%3A%2F%2Fdiplom.work"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wla-interns/denysenko/health-spa/" => "C:/Users/USER/OSPanel/domains/diplom.work/"
+	SEARCH  2:"\/var\/www\/html\/wla-interns\/denysenko\/health-spa\/" => "C:\/Users\/USER\/OSPanel\/domains\/diplom.work\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwla-interns%2Fdenysenko%2Fhealth-spa%2F" => "C%3A%2FUsers%2FUSER%2FOSPanel%2Fdomains%2Fdiplom.work%2F"
+	SEARCH  4:"\var\www\html\wla-interns\denysenko\health-spa" ==> "C:/Users/USER/OSPanel/domains/diplom.work"
+	SEARCH  5:"\\var\\www\\html\\wla-interns\\denysenko\\health-spa" => "C:\/Users\/USER\/OSPanel\/domains\/diplom.work"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwla-interns%5Cdenysenko%5Chealth-spa" => "C%3A%2FUsers%2FUSER%2FOSPanel%2Fdomains%2Fdiplom.work"
+	SEARCH  7:"//do.ready-for-feedback.com/wla-interns/denysenko/health-spa" => "//diplom.work"
+	SEARCH  8:"\/\/do.ready-for-feedback.com\/wla-interns\/denysenko\/health-spa" => "\/\/diplom.work"
+	SEARCH  9:"%2F%2Fdo.ready-for-feedback.com%2Fwla-interns%2Fdenysenko%2Fhealth-spa" => "%2F%2Fdiplom.work"
+	SEARCH 10:"https://diplom.work" =============================> "http://diplom.work"
+	SEARCH 11:"https:\/\/diplom.work" ===========================> "http:\/\/diplom.work"
+	SEARCH 12:"https%3A%2F%2Fdiplom.work" =======================> "http%3A%2F%2Fdiplom.work"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wla-interns/denysenko/health-spa/" => "C:/Users/USER/OSPanel/domains/diplom.work/"
+	SEARCH  2:"\/var\/www\/html\/wla-interns\/denysenko\/health-spa\/" => "C:\/Users\/USER\/OSPanel\/domains\/diplom.work\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwla-interns%2Fdenysenko%2Fhealth-spa%2F" => "C%3A%2FUsers%2FUSER%2FOSPanel%2Fdomains%2Fdiplom.work%2F"
+	SEARCH  4:"\var\www\html\wla-interns\denysenko\health-spa" ==> "C:/Users/USER/OSPanel/domains/diplom.work"
+	SEARCH  5:"\\var\\www\\html\\wla-interns\\denysenko\\health-spa" => "C:\/Users\/USER\/OSPanel\/domains\/diplom.work"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwla-interns%5Cdenysenko%5Chealth-spa" => "C%3A%2FUsers%2FUSER%2FOSPanel%2Fdomains%2Fdiplom.work"
+	SEARCH  7:"//do.ready-for-feedback.com/wla-interns/denysenko/health-spa" => "//diplom.work"
+	SEARCH  8:"\/\/do.ready-for-feedback.com\/wla-interns\/denysenko\/health-spa" => "\/\/diplom.work"
+	SEARCH  9:"%2F%2Fdo.ready-for-feedback.com%2Fwla-interns%2Fdenysenko%2Fhealth-spa" => "%2F%2Fdiplom.work"
+	SEARCH 10:"https://diplom.work" =============================> "http://diplom.work"
+	SEARCH 11:"https:\/\/diplom.work" ===========================> "http:\/\/diplom.work"
+	SEARCH 12:"https%3A%2F%2Fdiplom.work" =======================> "http%3A%2F%2Fdiplom.work"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wla-interns/denysenko/health-spa/" => "C:/Users/USER/OSPanel/domains/diplom.work/"
+	SEARCH  2:"\/var\/www\/html\/wla-interns\/denysenko\/health-spa\/" => "C:\/Users\/USER\/OSPanel\/domains\/diplom.work\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwla-interns%2Fdenysenko%2Fhealth-spa%2F" => "C%3A%2FUsers%2FUSER%2FOSPanel%2Fdomains%2Fdiplom.work%2F"
+	SEARCH  4:"\var\www\html\wla-interns\denysenko\health-spa" ==> "C:/Users/USER/OSPanel/domains/diplom.work"
+	SEARCH  5:"\\var\\www\\html\\wla-interns\\denysenko\\health-spa" => "C:\/Users\/USER\/OSPanel\/domains\/diplom.work"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwla-interns%5Cdenysenko%5Chealth-spa" => "C%3A%2FUsers%2FUSER%2FOSPanel%2Fdomains%2Fdiplom.work"
+	SEARCH  7:"//do.ready-for-feedback.com/wla-interns/denysenko/health-spa" => "//diplom.work"
+	SEARCH  8:"\/\/do.ready-for-feedback.com\/wla-interns\/denysenko\/health-spa" => "\/\/diplom.work"
+	SEARCH  9:"%2F%2Fdo.ready-for-feedback.com%2Fwla-interns%2Fdenysenko%2Fhealth-spa" => "%2F%2Fdiplom.work"
+	SEARCH 10:"https://diplom.work" =============================> "http://diplom.work"
+	SEARCH 11:"https:\/\/diplom.work" ===========================> "http:\/\/diplom.work"
+	SEARCH 12:"https%3A%2F%2Fdiplom.work" =======================> "http%3A%2F%2Fdiplom.work"
+
+EVALUATE TABLE: "wp_yoast_seo_links"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_seo_meta"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:17 	|	 Rows:175 	|	 Cells:838 
+UPDATED:	Tables:3 	|	 Rows:10 	|	 Cells:13 
+ERRORS:		0 
+RUNTIME:	0.190600 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""diplom""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Activated plugins (If they are activated) listed here will be deactivated: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 01:03:49 - RUNTIME: 0.2568 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

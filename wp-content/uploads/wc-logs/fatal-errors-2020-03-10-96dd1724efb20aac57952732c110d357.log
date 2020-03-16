@@ -1,0 +1,20 @@
+2020-03-10T09:31:59+00:00 CRITICAL Uncaught Error: Call to undefined function get_image() in C:\Users\USER\OSPanel\domains\diplom.work\wp-content\themes\diplom\templates\template-home.php:96
+Stack trace:
+#0 C:\Users\USER\OSPanel\domains\diplom.work\wp-includes\template-loader.php(98): include()
+#1 C:\Users\USER\OSPanel\domains\diplom.work\wp-blog-header.php(19): require_once('C:\\Users\\USER\\O...')
+#2 C:\Users\USER\OSPanel\domains\diplom.work\index.php(17): require('C:\\Users\\USER\\O...')
+#3 {main}
+  thrown in C:\Users\USER\OSPanel\domains\diplom.work\wp-content\themes\diplom\templates\template-home.php on line 96
+
+2020-03-10T09:36:14+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\Users\USER\OSPanel\domains\diplom.work\wp-content\themes\diplom\templates\template-home.php on line 102
+
+2020-03-10T09:37:00+00:00 CRITICAL Uncaught Error: Call to undefined function the_exerpt() in C:\Users\USER\OSPanel\domains\diplom.work\wp-content\themes\diplom\templates\template-home.php:95
+Stack trace:
+#0 C:\Users\USER\OSPanel\domains\diplom.work\wp-includes\template-loader.php(98): include()
+#1 C:\Users\USER\OSPanel\domains\diplom.work\wp-blog-header.php(19): require_once('C:\\Users\\USER\\O...')
+#2 C:\Users\USER\OSPanel\domains\diplom.work\index.php(17): require('C:\\Users\\USER\\O...')
+#3 {main}
+  thrown in C:\Users\USER\OSPanel\domains\diplom.work\wp-content\themes\diplom\templates\template-home.php on line 95
+
+2020-03-10T10:25:31+00:00 CRITICAL syntax error, unexpected '') ?>' (T_ENCAPSED_AND_WHITESPACE) in C:\Users\USER\OSPanel\domains\diplom.work\wp-content\themes\diplom\templates\template-home.php on line 100
+

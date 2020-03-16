@@ -1,0 +1,2 @@
+2020-03-12T15:21:12+00:00 CRITICAL Out of memory (allocated 33554432) (tried to allocate 20480 bytes) in C:\Users\USER\OSPanel\domains\diplom.work\wp-content\plugins\wordpress-seo\frontend\class-opengraph.php on line 45
+
